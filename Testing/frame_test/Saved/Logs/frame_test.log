@@ -1,0 +1,989 @@
+﻿[2015.08.08-05.25.14:098][  0]Log file open, 08/08/15 00:25:14
+[2015.08.08-05.25.14:098][  0]LogInit:Display: Running engine for game: frame_test
+[2015.08.08-05.25.14:098][  0]LogInit:Display: RandInit(-796920777) SRandInit(-796920776).
+[2015.08.08-05.25.14:098][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.08.08-05.25.14:098][  0]LogStats: Stats thread started
+[2015.08.08-05.25.14:098][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.08-05.25.14:098][  0]LogInit: API Version: 2579680
+[2015.08.08-05.25.14:098][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.08.08-05.25.14:098][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.08.08-05.25.14:098][  0]LogInit: Build Configuration: Development
+[2015.08.08-05.25.14:098][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.08.08-05.25.14:098][  0]LogInit: Command line: 
+[2015.08.08-05.25.14:098][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.08.08-05.25.14:098][  0]LogInit: Rocket: 1
+[2015.08.08-05.25.14:114][  0]LogInit: Using libcurl 7.41.0
+[2015.08.08-05.25.14:114][  0]LogInit:  - built for x86_64-pc-win32
+[2015.08.08-05.25.14:114][  0]LogInit:  - supports SSL with WinSSL
+[2015.08.08-05.25.14:114][  0]LogInit:  - other features:
+[2015.08.08-05.25.14:114][  0]LogInit:      CURL_VERSION_SSL
+[2015.08.08-05.25.14:114][  0]LogInit:      CURL_VERSION_IPV6
+[2015.08.08-05.25.14:114][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.08.08-05.25.14:114][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.08.08-05.25.14:114][  0]LogInit:      CURL_VERSION_IDN
+[2015.08.08-05.25.14:114][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.08.08-05.25.14:114][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.08.08-05.25.14:114][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.08.08-05.25.14:114][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.08.08-05.25.14:114][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.08.08-05.25.14:129][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.08.08-05.25.14:146][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.08.08-05.25.14:155][  0]LogInit: Object subsystem initialized
+[2015.08.08-05.25.14:159][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.08-05.25.14:159][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.08.08-05.25.14:169][  0]LogInit: Computer: THECITADEL
+[2015.08.08-05.25.14:169][  0]LogInit: User: Xephorium
+[2015.08.08-05.25.14:169][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.08.08-05.25.14:169][  0]LogInit: High frequency timer resolution =3.704020 MHz
+[2015.08.08-05.25.14:169][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.08.08-05.25.14:169][  0]LogMemory: Platform Memory Stats for Windows
+[2015.08.08-05.25.14:169][  0]LogMemory: Process Physical Memory: 47.33 MB used, 47.33 MB peak
+[2015.08.08-05.25.14:169][  0]LogMemory: Process Virtual Memory: 22.20 MB used, 22.20 MB peak
+[2015.08.08-05.25.14:169][  0]LogMemory: Physical Memory: 3674.01 MB used, 8133.44 MB total
+[2015.08.08-05.25.14:169][  0]LogMemory: Virtual Memory: 292.77 MB used, 134217728.00 MB total
+[2015.08.08-05.25.14:212][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.08.08-05.25.14:433][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.08.08-05.25.14:954][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 760 (Feature Level 11_0)
+[2015.08.08-05.25.14:954][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2015.08.08-05.25.14:955][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.08.08-05.25.14:955][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.08.08-05.25.14:955][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.08.08-05.25.14:960][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.25.14:960][  0]LogD3D11RHI: !Direct3DDevice
+[2015.08.08-05.25.14:960][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.08.08-05.25.14:975][  0]LogD3D11RHI: Async texture creation enabled
+[2015.08.08-05.25.14:995][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.08.08-05.25.16:032][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.08.08-05.25.16:051][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.08.08-05.25.16:069][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.08.08-05.25.16:087][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.08.08-05.25.16:108][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.08.08-05.25.16:123][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.08.08-05.25.16:139][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.08.08-05.25.16:154][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.08.08-05.25.16:169][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.08.08-05.25.16:185][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.08.08-05.25.16:200][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.08.08-05.25.16:216][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.08.08-05.25.16:277][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.08.08-05.25.16:293][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.08.08-05.25.16:308][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.08.08-05.25.16:330][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.08.08-05.25.16:330][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.08-05.25.16:598][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.08.08-05.25.16:694][  0]LogDerivedDataCache: Loaded boot cache 0.10s 53MB C:/Users/Xephorium/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.08-05.25.16:694][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Xephorium/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.08.08-05.25.16:695][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.08.08-05.25.16:695][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.08.08-05.25.16:695][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.08.08-05.25.16:695][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.08.08-05.25.16:844][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.08.08-05.25.16:858][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Xephorium/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.08.08-05.25.17:186][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.08-05.25.17:290][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.08-05.25.17:291][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.08-05.25.17:325][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.08.08-05.25.17:325][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.08.08-05.25.17:809][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.08.08-05.25.19:206][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.08.08-05.25.19:672][  0]SourceControl: Info Source control is disabled
+[2015.08.08-05.25.19:682][  0]SourceControl: Info Source control is disabled
+[2015.08.08-05.25.19:695][  0]SourceControl: Info Source control is disabled
+[2015.08.08-05.25.19:707][  0]SourceControl: Info Source control is disabled
+[2015.08.08-05.25.20:029][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.08.08-05.25.20:030][  0]LogUObjectAllocator: 5409256 out of 0 bytes used by permanent object pool.
+[2015.08.08-05.25.20:115][  0]LogEngine: Initializing Engine...
+[2015.08.08-05.25.20:116][  0]OCULUS: Info: [CAPI] LibOVR module is located at C:\Windows\SYSTEM32\LibOVRRT64_0_6.dll
+
+[2015.08.08-05.25.20:718][  0]OCULUS: Error: ovrHmd_Create failed to complete within the timeout period.
+[2015.08.08-05.25.20:823][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.08.08-05.25.21:049][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.08.08-05.25.21:058][  0]LogInit: XAudio2 using 'Sades SA-903 Headset (4- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.08-05.25.21:067][  0]LogInit: FAudioDevice initialized.
+[2015.08.08-05.25.21:113][  0]LogDerivedDataCache: Saved boot cache 0.05s 53MB C:/Users/Xephorium/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.08-05.25.21:127][  0]LogInit: Texture streaming: Disabled
+[2015.08.08-05.25.21:156][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.08.08-05.25.21:156][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.08-05.25.21:156][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 45a85f91457e24cea9d1398c2b5b7299|87e1918198584c7b85f2dd69d2a628a8|2f249eb6-0266-46ff-affe-44ee199eb976
+[2015.08.08-05.25.21:156][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.08.08-05.25.21:187][  0]LogInit: Transaction tracking system initialized
+[2015.08.08-05.25.21:356][  0]BlueprintLog: New page: Editor Load
+[2015.08.08-05.25.21:398][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
+[2015.08.08-05.25.21:398][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.08.08-05.25.23:197][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.08.08-05.25.23:199][  0]LogConsoleResponse:Display: 
+[2015.08.08-05.25.23:349][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.08.08-05.25.23:646][  0]SourceControl: Info Source control is disabled
+[2015.08.08-05.25.23:654][  0]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/4.8/FeaturePacks/StarterContent.upack)
+[2015.08.08-05.25.23:675][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2015.08.08-05.25.23:680][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2015.08.08-05.25.23:685][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2015.08.08-05.25.23:691][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2015.08.08-05.25.23:693][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_CeilingPiece500x500.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Architecture/SM_CeilingPiece500x500.uasset"
+[2015.08.08-05.25.23:696][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_FloorPiece500x500.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Architecture/SM_FloorPiece500x500.uasset"
+[2015.08.08-05.25.23:700][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2015.08.08-05.25.23:705][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2015.08.08-05.25.23:710][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2015.08.08-05.25.23:714][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2015.08.08-05.25.23:719][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2015.08.08-05.25.23:723][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2015.08.08-05.25.23:727][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2015.08.08-05.25.23:732][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2015.08.08-05.25.23:737][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Audio/Collapse01.uasset"
+[2015.08.08-05.25.23:743][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Audio/Collapse02.uasset"
+[2015.08.08-05.25.23:747][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2015.08.08-05.25.23:752][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Audio/Explosion01.uasset"
+[2015.08.08-05.25.23:758][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Audio/Explosion02.uasset"
+[2015.08.08-05.25.23:762][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2015.08.08-05.25.23:768][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Audio/Fire01.uasset"
+[2015.08.08-05.25.23:773][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2015.08.08-05.25.23:780][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2015.08.08-05.25.23:784][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2015.08.08-05.25.23:790][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Audio/Light01.uasset"
+[2015.08.08-05.25.23:796][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2015.08.08-05.25.23:801][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Audio/Light02.uasset"
+[2015.08.08-05.25.23:806][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2015.08.08-05.25.23:812][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Audio/Smoke01.uasset"
+[2015.08.08-05.25.23:815][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2015.08.08-05.25.23:820][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2015.08.08-05.25.23:832][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2015.08.08-05.25.23:859][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2015.08.08-05.25.23:864][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2015.08.08-05.25.23:875][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2015.08.08-05.25.23:887][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2015.08.08-05.25.23:894][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Audio/Steam01.uasset"
+[2015.08.08-05.25.23:898][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2015.08.08-05.25.23:903][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2015.08.08-05.25.23:907][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2015.08.08-05.25.23:912][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2015.08.08-05.25.23:917][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2015.08.08-05.25.23:922][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2015.08.08-05.25.23:926][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2015.08.08-05.25.23:931][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2015.08.08-05.25.23:937][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2015.08.08-05.25.23:941][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2015.08.08-05.25.23:945][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2015.08.08-05.25.23:950][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2015.08.08-05.25.23:955][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2015.08.08-05.25.23:960][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2015.08.08-05.25.23:966][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2015.08.08-05.25.23:973][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2015.08.08-05.25.23:977][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2015.08.08-05.25.24:166][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2015.08.08-05.25.24:171][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2015.08.08-05.25.24:182][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Maps/Minimal_Default.umap"
+[2015.08.08-05.25.24:231][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Maps/StarterMap.umap"
+[2015.08.08-05.25.24:236][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2015.08.08-05.25.24:245][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2015.08.08-05.25.24:250][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2015.08.08-05.25.24:254][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2015.08.08-05.25.24:259][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2015.08.08-05.25.24:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2015.08.08-05.25.24:268][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2015.08.08-05.25.24:272][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2015.08.08-05.25.24:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2015.08.08-05.25.24:281][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2015.08.08-05.25.24:286][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2015.08.08-05.25.24:291][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2015.08.08-05.25.24:296][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2015.08.08-05.25.24:300][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2015.08.08-05.25.24:309][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2015.08.08-05.25.24:316][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2015.08.08-05.25.24:326][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2015.08.08-05.25.24:336][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Materials/M_Glass.uasset"
+[2015.08.08-05.25.24:343][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2015.08.08-05.25.24:351][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2015.08.08-05.25.24:364][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2015.08.08-05.25.24:368][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2015.08.08-05.25.24:372][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2015.08.08-05.25.24:376][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2015.08.08-05.25.24:382][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2015.08.08-05.25.24:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2015.08.08-05.25.24:392][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2015.08.08-05.25.24:396][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2015.08.08-05.25.24:400][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2015.08.08-05.25.24:405][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2015.08.08-05.25.24:409][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2015.08.08-05.25.24:414][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2015.08.08-05.25.24:419][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2015.08.08-05.25.24:424][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2015.08.08-05.25.24:429][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2015.08.08-05.25.24:433][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2015.08.08-05.25.24:438][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2015.08.08-05.25.24:442][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2015.08.08-05.25.24:446][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2015.08.08-05.25.24:451][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2015.08.08-05.25.24:456][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2015.08.08-05.25.24:460][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2015.08.08-05.25.24:464][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2015.08.08-05.25.24:468][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2015.08.08-05.25.24:474][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Particles/P_Explosion.uasset"
+[2015.08.08-05.25.24:479][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Particles/P_Fire.uasset"
+[2015.08.08-05.25.24:483][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Particles/P_Smoke.uasset"
+[2015.08.08-05.25.24:488][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Particles/P_Sparks.uasset"
+[2015.08.08-05.25.24:493][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2015.08.08-05.25.24:498][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2015.08.08-05.25.24:502][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2015.08.08-05.25.24:507][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2015.08.08-05.25.24:512][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2015.08.08-05.25.24:517][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2015.08.08-05.25.24:522][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2015.08.08-05.25.24:526][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2015.08.08-05.25.24:531][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2015.08.08-05.25.24:536][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2015.08.08-05.25.24:540][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2015.08.08-05.25.24:545][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Props/MaterialSphere.uasset"
+[2015.08.08-05.25.24:551][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Props/SM_Bush.uasset"
+[2015.08.08-05.25.24:556][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Props/SM_Chair.uasset"
+[2015.08.08-05.25.24:561][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2015.08.08-05.25.24:567][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Props/SM_Couch.uasset"
+[2015.08.08-05.25.24:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Props/SM_Door.uasset"
+[2015.08.08-05.25.24:576][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2015.08.08-05.25.24:581][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2015.08.08-05.25.24:586][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2015.08.08-05.25.24:591][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2015.08.08-05.25.24:602][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2015.08.08-05.25.24:607][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2015.08.08-05.25.24:611][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2015.08.08-05.25.24:616][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Props/SM_Rock.uasset"
+[2015.08.08-05.25.24:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Props/SM_Shelf.uasset"
+[2015.08.08-05.25.24:625][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Props/SM_Stairs.uasset"
+[2015.08.08-05.25.24:631][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Props/SM_Statue.uasset"
+[2015.08.08-05.25.24:637][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Props/SM_TableRound.uasset"
+[2015.08.08-05.25.24:641][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2015.08.08-05.25.24:646][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2015.08.08-05.25.24:651][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2015.08.08-05.25.24:655][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2015.08.08-05.25.24:659][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2015.08.08-05.25.24:664][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2015.08.08-05.25.24:668][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2015.08.08-05.25.24:673][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2015.08.08-05.25.24:677][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2015.08.08-05.25.24:682][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2015.08.08-05.25.24:687][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2015.08.08-05.25.24:691][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2015.08.08-05.25.24:696][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2015.08.08-05.25.24:701][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2015.08.08-05.25.24:705][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2015.08.08-05.25.24:710][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2015.08.08-05.25.24:715][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2015.08.08-05.25.24:720][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2015.08.08-05.25.24:725][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2015.08.08-05.25.24:729][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2015.08.08-05.25.24:734][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2015.08.08-05.25.24:739][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2015.08.08-05.25.24:744][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2015.08.08-05.25.24:750][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2015.08.08-05.25.24:755][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2015.08.08-05.25.24:760][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2015.08.08-05.25.24:765][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2015.08.08-05.25.24:769][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2015.08.08-05.25.24:774][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2015.08.08-05.25.24:778][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2015.08.08-05.25.24:783][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2015.08.08-05.25.24:788][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2015.08.08-05.25.24:790][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/Metal_Tile_2.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/Metal_Tile_2.uasset"
+[2015.08.08-05.25.24:791][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/Metal_Tile_2_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/Metal_Tile_2_N.uasset"
+[2015.08.08-05.25.24:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/Sky54a2048.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/Sky54a2048.uasset"
+[2015.08.08-05.25.24:798][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/Sky54a2048LDR.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/Sky54a2048LDR.uasset"
+[2015.08.08-05.25.24:802][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ArmorMetal01.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_ArmorMetal01.uasset"
+[2015.08.08-05.25.24:803][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ArmorMetal01_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_ArmorMetal01_N.uasset"
+[2015.08.08-05.25.24:807][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bark02_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Bark02_D.uasset"
+[2015.08.08-05.25.24:811][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bark02_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Bark02_N.uasset"
+[2015.08.08-05.25.24:815][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Base_Metal_Gray_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Base_Metal_Gray_D.uasset"
+[2015.08.08-05.25.24:818][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Base_Metal_Gray_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Base_Metal_Gray_N.uasset"
+[2015.08.08-05.25.24:845][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2015.08.08-05.25.24:875][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2015.08.08-05.25.24:900][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2015.08.08-05.25.24:921][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2015.08.08-05.25.24:950][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2015.08.08-05.25.24:976][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2015.08.08-05.25.25:011][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2015.08.08-05.25.25:046][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2015.08.08-05.25.25:086][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2015.08.08-05.25.25:109][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2015.08.08-05.25.25:135][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2015.08.08-05.25.25:158][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2015.08.08-05.25.25:187][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2015.08.08-05.25.25:192][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2015.08.08-05.25.25:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2015.08.08-05.25.25:205][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2015.08.08-05.25.25:210][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2015.08.08-05.25.25:216][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2015.08.08-05.25.25:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2015.08.08-05.25.25:232][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2015.08.08-05.25.25:237][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2015.08.08-05.25.25:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Cliff_M.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Cliff_M.uasset"
+[2015.08.08-05.25.25:241][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Cliff_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Cliff_N.uasset"
+[2015.08.08-05.25.25:244][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleDark_01_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_CobbleDark_01_D.uasset"
+[2015.08.08-05.25.25:248][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_04b_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_CobbleStone_04b_D.uasset"
+[2015.08.08-05.25.25:251][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_04_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_CobbleStone_04_D.uasset"
+[2015.08.08-05.25.25:255][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_04_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_CobbleStone_04_N.uasset"
+[2015.08.08-05.25.25:257][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_04_R.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_CobbleStone_04_R.uasset"
+[2015.08.08-05.25.25:292][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2015.08.08-05.25.25:300][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2015.08.08-05.25.25:339][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2015.08.08-05.25.25:353][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2015.08.08-05.25.25:365][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2015.08.08-05.25.25:388][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2015.08.08-05.25.25:409][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2015.08.08-05.25.25:438][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2015.08.08-05.25.25:441][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Cobble_01_H.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Cobble_01_H.uasset"
+[2015.08.08-05.25.25:445][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete01_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Concrete01_D.uasset"
+[2015.08.08-05.25.25:448][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete01_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Concrete01_N.uasset"
+[2015.08.08-05.25.25:452][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_01_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Concrete_01_D.uasset"
+[2015.08.08-05.25.25:456][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_01_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Concrete_01_N.uasset"
+[2015.08.08-05.25.25:457][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Concrete_D.uasset"
+[2015.08.08-05.25.25:459][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Floor01.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Concrete_Floor01.uasset"
+[2015.08.08-05.25.25:461][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Floor01_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Concrete_Floor01_N.uasset"
+[2015.08.08-05.25.25:495][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2015.08.08-05.25.25:498][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Concrete_N.uasset"
+[2015.08.08-05.25.25:529][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2015.08.08-05.25.25:552][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2015.08.08-05.25.25:587][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2015.08.08-05.25.25:612][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2015.08.08-05.25.25:631][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2015.08.08-05.25.25:651][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2015.08.08-05.25.25:675][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2015.08.08-05.25.25:685][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2015.08.08-05.25.25:693][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Wall07.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Concrete_Wall07.uasset"
+[2015.08.08-05.25.25:697][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Wall07_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Concrete_Wall07_N.uasset"
+[2015.08.08-05.25.25:705][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Wall_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Concrete_Wall_D.uasset"
+[2015.08.08-05.25.25:712][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Wall_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Concrete_Wall_N.uasset"
+[2015.08.08-05.25.25:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_DesertCrystal01_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_DesertCrystal01_N.uasset"
+[2015.08.08-05.25.25:741][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2015.08.08-05.25.25:748][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dirt_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Dirt_D.uasset"
+[2015.08.08-05.25.25:753][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dirt_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Dirt_N.uasset"
+[2015.08.08-05.25.25:772][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Door_M.uasset"
+[2015.08.08-05.25.25:826][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Door_N.uasset"
+[2015.08.08-05.25.25:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2015.08.08-05.25.25:922][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2015.08.08-05.25.25:949][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2015.08.08-05.25.26:015][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2015.08.08-05.25.26:049][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2015.08.08-05.25.26:102][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2015.08.08-05.25.26:119][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Generic_Concrete_Base02.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Generic_Concrete_Base02.uasset"
+[2015.08.08-05.25.26:133][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Generic_Concrete_Base02_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Generic_Concrete_Base02_N.uasset"
+[2015.08.08-05.25.26:145][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Generic_Concrete_Base04_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Generic_Concrete_Base04_D.uasset"
+[2015.08.08-05.25.26:154][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Generic_Concrete_Base04_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Generic_Concrete_Base04_N.uasset"
+[2015.08.08-05.25.26:164][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Generic_Concrete_Base_06.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Generic_Concrete_Base_06.uasset"
+[2015.08.08-05.25.26:173][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Generic_Concrete_Base_06_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Generic_Concrete_Base_06_N.uasset"
+[2015.08.08-05.25.26:181][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Generic_Concrete_Base_07.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Generic_Concrete_Base_07.uasset"
+[2015.08.08-05.25.26:191][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Generic_Concrete_Base_07_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Generic_Concrete_Base_07_N.uasset"
+[2015.08.08-05.25.26:212][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2015.08.08-05.25.26:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gravel_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Gravel_D.uasset"
+[2015.08.08-05.25.26:230][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gravel_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Gravel_N.uasset"
+[2015.08.08-05.25.26:242][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_01_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Ground_01_D.uasset"
+[2015.08.08-05.25.26:246][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_01_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Ground_01_N.uasset"
+[2015.08.08-05.25.26:258][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_02_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Ground_02_D.uasset"
+[2015.08.08-05.25.26:262][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_02_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Ground_02_N.uasset"
+[2015.08.08-05.25.26:274][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Detail_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Ground_Detail_N.uasset"
+[2015.08.08-05.25.26:282][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Dirt_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Ground_Dirt_D.uasset"
+[2015.08.08-05.25.26:289][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Dirt_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Ground_Dirt_N.uasset"
+[2015.08.08-05.25.26:432][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2015.08.08-05.25.26:676][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2015.08.08-05.25.26:872][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2015.08.08-05.25.26:985][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2015.08.08-05.25.27:058][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2015.08.08-05.25.27:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2015.08.08-05.25.27:213][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Noise_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Ground_Noise_N.uasset"
+[2015.08.08-05.25.27:224][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2015.08.08-05.25.27:242][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2015.08.08-05.25.27:305][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2015.08.08-05.25.27:341][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2015.08.08-05.25.27:372][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2015.08.08-05.25.27:377][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_E.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_E.uasset"
+[2015.08.08-05.25.27:382][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_N.uasset"
+[2015.08.08-05.25.27:411][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2015.08.08-05.25.27:423][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2015.08.08-05.25.27:426][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Metal01_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Metal_Metal01_D.uasset"
+[2015.08.08-05.25.27:430][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Metal01_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Metal_Metal01_N.uasset"
+[2015.08.08-05.25.27:433][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Metal03_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Metal_Metal03_D.uasset"
+[2015.08.08-05.25.27:437][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Metal03_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Metal_Metal03_N.uasset"
+[2015.08.08-05.25.27:441][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Painted_04_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Metal_Painted_04_D.uasset"
+[2015.08.08-05.25.27:444][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Painted_04_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Metal_Painted_04_N.uasset"
+[2015.08.08-05.25.27:446][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_01_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Metal_Rust_01_D.uasset"
+[2015.08.08-05.25.27:448][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_01_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Metal_Rust_01_N.uasset"
+[2015.08.08-05.25.27:478][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2015.08.08-05.25.27:502][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2015.08.08-05.25.27:506][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Scuffed_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Metal_Scuffed_D.uasset"
+[2015.08.08-05.25.27:509][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Scuffed_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Metal_Scuffed_N.uasset"
+[2015.08.08-05.25.27:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2015.08.08-05.25.27:543][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2015.08.08-05.25.27:546][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_PaintedMetal01.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_PaintedMetal01.uasset"
+[2015.08.08-05.25.27:550][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_PaintedMetal01_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_PaintedMetal01_N.uasset"
+[2015.08.08-05.25.27:553][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Paint_Metal_Rust_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Paint_Metal_Rust_D.uasset"
+[2015.08.08-05.25.27:555][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Paint_Metal_Rust_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Paint_Metal_Rust_N.uasset"
+[2015.08.08-05.25.27:556][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_PatchyGrass_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_PatchyGrass_D.uasset"
+[2015.08.08-05.25.27:560][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_PatchyGrass_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_PatchyGrass_N.uasset"
+[2015.08.08-05.25.27:586][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2015.08.08-05.25.27:598][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2015.08.08-05.25.27:618][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2015.08.08-05.25.27:622][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rocky_01_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Rocky_01_N.uasset"
+[2015.08.08-05.25.27:626][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_01_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Rock_01_D.uasset"
+[2015.08.08-05.25.27:627][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_01_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Rock_01_N.uasset"
+[2015.08.08-05.25.27:631][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_03_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Rock_03_D.uasset"
+[2015.08.08-05.25.27:634][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_03_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Rock_03_N.uasset"
+[2015.08.08-05.25.27:638][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_05_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Rock_05_D.uasset"
+[2015.08.08-05.25.27:641][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_05_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Rock_05_N.uasset"
+[2015.08.08-05.25.27:645][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_06_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Rock_06_D.uasset"
+[2015.08.08-05.25.27:649][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_06_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Rock_06_N.uasset"
+[2015.08.08-05.25.27:652][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_07b_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Rock_07b_D.uasset"
+[2015.08.08-05.25.27:656][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_07_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Rock_07_D.uasset"
+[2015.08.08-05.25.27:660][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_07_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Rock_07_N.uasset"
+[2015.08.08-05.25.27:664][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_08_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Rock_08_D.uasset"
+[2015.08.08-05.25.27:667][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_08_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Rock_08_N.uasset"
+[2015.08.08-05.25.27:671][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_09_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Rock_09_D.uasset"
+[2015.08.08-05.25.27:675][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_10_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Rock_10_D.uasset"
+[2015.08.08-05.25.27:678][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_10_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Rock_10_N.uasset"
+[2015.08.08-05.25.27:682][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_11b_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Rock_11b_D.uasset"
+[2015.08.08-05.25.27:711][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2015.08.08-05.25.27:736][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2015.08.08-05.25.27:740][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Detail_02_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Rock_Detail_02_D.uasset"
+[2015.08.08-05.25.27:744][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Detail_02_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Rock_Detail_02_N.uasset"
+[2015.08.08-05.25.27:747][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Detail_03_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Rock_Detail_03_D.uasset"
+[2015.08.08-05.25.27:767][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2015.08.08-05.25.27:797][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2015.08.08-05.25.27:824][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2015.08.08-05.25.27:861][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2015.08.08-05.25.27:892][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2015.08.08-05.25.27:921][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2015.08.08-05.25.27:928][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2015.08.08-05.25.27:937][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2015.08.08-05.25.27:939][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2015.08.08-05.25.27:942][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Sky_Clouds_M.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Sky_Clouds_M.uasset"
+[2015.08.08-05.25.27:946][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Sky_Stars.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Sky_Stars.uasset"
+[2015.08.08-05.25.27:959][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2015.08.08-05.25.27:964][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2015.08.08-05.25.27:969][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2015.08.08-05.25.27:976][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2015.08.08-05.25.27:983][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2015.08.08-05.25.27:987][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Stone_Brick_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Stone_Brick_D.uasset"
+[2015.08.08-05.25.27:990][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Stone_Brick_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Stone_Brick_N.uasset"
+[2015.08.08-05.25.27:998][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2015.08.08-05.25.28:007][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2015.08.08-05.25.28:012][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2015.08.08-05.25.28:017][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2015.08.08-05.25.28:024][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2015.08.08-05.25.28:032][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2015.08.08-05.25.28:039][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2015.08.08-05.25.28:049][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2015.08.08-05.25.28:053][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Underground_Base_Pipe_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Underground_Base_Pipe_D.uasset"
+[2015.08.08-05.25.28:056][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Underground_Base_Pipe_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Underground_Base_Pipe_N.uasset"
+[2015.08.08-05.25.28:060][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_UNV_Concrete02.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_UNV_Concrete02.uasset"
+[2015.08.08-05.25.28:064][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_UNV_Concrete02_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_UNV_Concrete02_N.uasset"
+[2015.08.08-05.25.28:074][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Water_M.uasset"
+[2015.08.08-05.25.28:085][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Water_N.uasset"
+[2015.08.08-05.25.28:089][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_White_Painted_Metal_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_White_Painted_Metal_D.uasset"
+[2015.08.08-05.25.28:092][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_White_Painted_Metal_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_White_Painted_Metal_N.uasset"
+[2015.08.08-05.25.28:096][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_a_d.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Wood_a_d.uasset"
+[2015.08.08-05.25.28:099][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_A_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Wood_A_N.uasset"
+[2015.08.08-05.25.28:103][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_A_S.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Wood_A_S.uasset"
+[2015.08.08-05.25.28:120][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2015.08.08-05.25.28:136][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2015.08.08-05.25.28:149][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2015.08.08-05.25.28:171][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2015.08.08-05.25.28:192][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2015.08.08-05.25.28:223][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2015.08.08-05.25.28:238][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2015.08.08-05.25.28:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2015.08.08-05.25.28:279][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2015.08.08-05.25.28:397][  0]LogRenderer: Reallocating scene render targets to support 256x256 (Frame:2).
+[2015.08.08-05.25.30:160][  0]LogSavePackage: Save=433.233887ms
+[2015.08.08-05.25.30:160][  0]LogSavePackage: Moving '../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Saved/Floor_400x400883943454D5E92E7727725A344DA5697.tmp' to '../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2015.08.08-05.25.30:169][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2015.08.08-05.25.30:173][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.08.08-05.25.30:173][  0]LightingResults: New page: Lighting Build
+[2015.08.08-05.25.30:189][  0]MapCheck: New page: Map Check
+[2015.08.08-05.25.30:189][  0]LightingResults: New page: Lighting Build
+[2015.08.08-05.25.30:207][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000021C8C2CF40
+[2015.08.08-05.25.31:438][  0]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.08.08-05.25.32:637][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.08.08-05.25.33:993][  0]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2015.08.08-05.25.35:173][  0]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2015.08.08-05.25.36:270][  0]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2015.08.08-05.25.38:130][  0]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2015.08.08-05.25.39:849][  0]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2015.08.08-05.25.40:823][  0]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2015.08.08-05.25.40:890][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.08.08-05.25.41:367][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.08.08-05.25.41:931][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2015.08.08-05.25.42:428][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2015.08.08-05.25.42:923][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2015.08.08-05.25.43:463][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2015.08.08-05.25.43:981][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2015.08.08-05.25.44:502][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2015.08.08-05.25.44:539][  0]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2015.08.08-05.25.45:123][  0]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2015.08.08-05.25.45:797][  0]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT)
+[2015.08.08-05.25.46:402][  0]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT)
+[2015.08.08-05.25.46:987][  0]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT)
+[2015.08.08-05.25.47:788][  0]LogTexture:Display: Building textures: SkyOcclusion0_6 (AutoDXT)
+[2015.08.08-05.25.48:596][  0]LogTexture:Display: Building textures: SkyOcclusion0_7 (AutoDXT)
+[2015.08.08-05.25.49:399][  0]LogTexture:Display: Building textures: SkyOcclusion0_8 (AutoDXT)
+[2015.08.08-05.25.49:472][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (BGRA8)
+[2015.08.08-05.25.49:783][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (BGRA8)
+[2015.08.08-05.25.50:099][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (BGRA8)
+[2015.08.08-05.25.50:413][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (BGRA8)
+[2015.08.08-05.25.50:718][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (BGRA8)
+[2015.08.08-05.25.50:974][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (BGRA8)
+[2015.08.08-05.25.51:022][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
+[2015.08.08-05.25.51:327][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8)
+[2015.08.08-05.25.51:601][  0]LogMaterial: Missing cached shader map for material CubeMaterial, compiling. 
+[2015.08.08-05.25.51:776][  0]LogTexture:Display: Building textures: UE4_Mannequin_occlusion_Mobile (AutoDXT)
+[2015.08.08-05.25.52:163][  0]LogTexture:Display: Building textures: UE4_Mannequin_MAT_MASKA (AutoDXT)
+[2015.08.08-05.25.52:618][  0]LogTexture:Display: Building textures: UE4_Mannequin__normals (BC5)
+[2015.08.08-05.25.53:937][  0]LogTexture:Display: Building textures: T_ML_Aluminum01_N (BC5)
+[2015.08.08-05.25.54:019][  0]LogTexture:Display: Building textures: T_ML_Aluminum01 (AutoDXT)
+[2015.08.08-05.25.54:364][  0]LogTexture:Display: Building textures: T_ML_Rubber_Blue_01_N (BC5)
+[2015.08.08-05.25.54:445][  0]LogTexture:Display: Building textures: T_ML_Rubber_Blue_01_D (AutoDXT)
+[2015.08.08-05.25.54:971][  0]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2015.08.08-05.25.55:067][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.08.08-05.25.55:097][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.08.08-05.25.55:932][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.08.08-05.25.56:003][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 71.04ms to complete.
+[2015.08.08-05.25.56:003][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 25.831
+[2015.08.08-05.25.56:214][  0]LogCollectionManager: Loaded 0 collections in 0.003518 seconds
+[2015.08.08-05.25.56:230][  0]LogContentBrowser: Native class hierarchy populated in 0.0158 seconds. Added 1792 classes and 301 folders.
+[2015.08.08-05.25.56:342][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2015.08.08-05.25.56:416][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.08.08-05.25.56:449][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2015.08.08-05.25.56:536][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.08.08-05.25.56:545][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.25.56:576][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.25.56:623][  0]LogLoad: Full Startup: 45.04 seconds (BP compile: 0.60 seconds)
+[2015.08.08-05.25.57:806][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.08.08-05.25.57:859][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.08.08-05.25.58:150][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:3).
+[2015.08.08-05.26.07:265][  1]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.26.10:058][ 10]LogAssetRegistry: Asset discovery search completed in 48.6709 seconds
+[2015.08.08-05.26.34:824][176]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.26.50:340][473]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.08-05.26.50:342][473]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.08-05.26.50:343][473]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.08-05.26.50:343][473]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.08-05.26.50:343][473]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.08-05.26.50:343][473]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.08-05.26.50:343][473]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.08-05.26.50:343][473]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.08-05.26.50:344][473]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.08-05.26.50:344][473]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.08-05.26.50:344][473]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.08-05.26.50:344][473]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.08-05.26.50:344][473]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.08-05.26.50:344][473]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.08-05.26.50:380][473]LogEditorActor: Deleted 14 Actors (0.044 secs)
+[2015.08.08-05.27.04:510][839]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.08-05.27.04:512][839]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.08-05.27.04:512][839]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.08-05.27.04:513][839]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.08-05.27.04:513][839]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.08-05.27.04:513][839]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.08-05.27.04:514][839]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.08-05.27.04:548][839]LogEditorActor: Deleted 7 Actors (0.039 secs)
+[2015.08.08-05.27.07:523][191]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.27.19:650][630]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.27.19:959][663]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.27.20:353][707]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.27.22:160][916]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.30.01:147][297]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.30.01:897][379]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.30.12:666][496]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.30.12:684][496]Cmd: MAP IMPORTADD FILE="../../../../../../Users/Xephorium/Home/Projects/3D Animation/Blender Projects/Theater/Theater Frame 2.obj"
+[2015.08.08-05.30.12:703][496]MapCheck: New page: Map Check
+[2015.08.08-05.30.12:703][496]LightingResults: New page: Lighting Build
+[2015.08.08-05.30.31:970][742]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.30.33:001][864]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.31.00:098][841]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.31.01:908][ 49]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.31.04:050][303]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.31.09:934][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.31.11:143][139]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.31.17:113][853]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.31.19:052][ 78]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.31.29:266][299]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.31.30:647][460]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.31.35:618][805]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.31.35:666][805]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Xephorium/Home/Projects/3D Animation/Blender Projects/Theater/Theater Frame 2.obj)
+[2015.08.08-05.31.35:720][805]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.31.41:690][805]LogFbx: Loading FBX Scene from ../../../../../../Users/Xephorium/Home/Projects/3D Animation/Blender Projects/Theater/Theater Frame 2.obj
+[2015.08.08-05.31.41:697][805]LogFbx: FBX Scene Loaded Succesfully
+[2015.08.08-05.31.41:702][805]LogLinker:Warning: Can't find file '/Game/Imported/defaultMat'
+[2015.08.08-05.31.41:702][805]LogLinker:Warning: Can't find file '/Game/Imported/defaultMat'
+[2015.08.08-05.31.41:702][805]LogLinker:Warning: Can't find file '/Game/Imported/defaultMat'
+[2015.08.08-05.31.41:702][805]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Imported/defaultMat.defaultMat'
+[2015.08.08-05.31.41:709][805]LogMaterial: Missing cached shader map for material defaultMat, compiling. 
+[2015.08.08-05.31.41:719][805]LogFbx:Warning: Triangulating static mesh default
+[2015.08.08-05.31.42:090][805]LogStaticMesh: Building static mesh Theater_Frame_2...
+[2015.08.08-05.31.42:107][805]LogStaticMesh: Built static mesh [0.017322.2s] /Game/Imported/Theater_Frame_2.Theater_Frame_2
+[2015.08.08-05.31.42:112][805]LogStaticMesh:Warning: Theater_Frame_2 has degenerate tangent bases which will result in incorrect shading. 
+[2015.08.08-05.31.42:124][805]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.08.08-05.31.42:124][805]FBXImport:Warning: Warning Theater_Frame_2 has degenerate tangent bases which will result in incorrect shading.  
+[2015.08.08-05.31.42:128][805]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.31.56:482][395]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.31.56:530][399]LogActorFactory: Actor Factory created Theater_Frame_2
+[2015.08.08-05.31.57:920][561]LogActorFactory: Actor Factory created Theater_Frame_2
+[2015.08.08-05.33.58:837][596]LogEditorActor: Deleted Actor: TextRenderActor
+[2015.08.08-05.33.58:938][596]LogEditorActor: Deleted 1 Actors (0.102 secs)
+[2015.08.08-05.34.17:208][468]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.08-05.34.17:218][468]PIE: New page: PIE session: FirstPersonExampleMap (Aug 7, 2015, 7:34:17 PM)
+[2015.08.08-05.34.17:219][468]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.08.08-05.34.17:246][468]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026393s)
+[2015.08.08-05.34.17:247][468]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.08.08-05.34.17:248][468]LogPlayLevel: PIE: World Init took: (0.002160s)
+[2015.08.08-05.34.17:248][468]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.029249s)
+[2015.08.08-05.34.17:298][468]LogInit: XAudio2 using 'Sades SA-903 Headset (4- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.08-05.34.17:306][468]LogInit: FAudioDevice initialized.
+[2015.08.08-05.34.17:544][468]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.08.08-05.34.17:560][468]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.08.08-00.34.17
+[2015.08.08-05.34.17:560][468]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.08-05.34.17:562][468]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.08-05.34.17:565][468]LogWorld: Bringing up level for play took: 0.008495
+[2015.08.08-05.34.17:586][468]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.104
+[2015.08.08-05.34.23:556][149]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000021CB9B0540
+[2015.08.08-05.34.47:438][391]Cmd: TRANSACTION UNDO
+[2015.08.08-05.34.47:438][391]LogEditorTransaction: Undo Move Actors
+[2015.08.08-05.34.47:443][391]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.35.05:958][202]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.35.07:052][307]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.35.08:501][454]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.35.13:036][920]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.35.13:120][920]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.35.41:137][816]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.35.43:566][ 12]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.36.24:549][162]Cmd: POLY SELECT MEMORY UNION
+[2015.08.08-05.36.36:869][376]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.36.37:454][427]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.36.38:588][541]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.36.38:627][541]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.36.53:564][633]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.37.00:117][163]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.37.43:747][786]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.38.25:405][278]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.38.26:110][337]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.38.26:195][337]LogSavePackage: Save=15.728587ms
+[2015.08.08-05.38.26:195][337]LogSavePackage: Moving '../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Saved/Theater_Frame_2A7C55DF64E770ACE1CCDF986765F77E1.tmp' to '../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/Imported/Theater_Frame_2.uasset'
+[2015.08.08-05.38.30:042][678]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.38.31:619][851]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.38.36:232][320]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.38.38:975][499]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.38.39:855][565]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.40.00:437][330]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.40.09:771][358]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.40.09:954][358]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000021CB6982C0
+[2015.08.08-05.40.10:008][358]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000021CBA9F2E0
+[2015.08.08-05.40.10:147][358]LogSavePackage: Save=139.101303ms
+[2015.08.08-05.40.10:147][358]LogSavePackage: Moving '../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Saved/FirstPersonExampleMap_Auto1AEA12DC34033A03016F681B98A0D0CBA.tmp' to '../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2015.08.08-05.40.10:154][358]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.224
+[2015.08.08-05.40.10:154][358]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.224
+[2015.08.08-05.40.10:160][358]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Imported/defaultMat] ([1] browsable assets)...
+[2015.08.08-05.40.10:200][358]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Imported/defaultMat.defaultMat]
+[2015.08.08-05.40.10:200][358]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imported/defaultMat]
+[2015.08.08-05.40.10:217][358]LogSavePackage: Save=14.601163ms
+[2015.08.08-05.40.10:217][358]LogSavePackage: Moving '../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Saved/defaultMat_Auto1839FA95A4860270A560A00A7A577E963.tmp' to '../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Saved/Autosaves/Game/Imported/defaultMat_Auto1.uasset'
+[2015.08.08-05.40.10:219][358]LogFileHelpers: Auto-saving content packages took 0.063
+[2015.08.08-05.41.52:037][913]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Theater_Frame_2)
+[2015.08.08-05.41.52:049][913]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.41.53:572][ 29]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.41.54:437][ 92]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.41.54:468][ 93]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.41.57:514][324]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.42.01:592][633]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.08-05.42.01:634][633]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2015.08.08-05.42.09:066][377]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.42.10:824][581]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.42.11:351][639]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.42.12:674][639]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.42.12:716][639]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.42.12:751][639]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.43.03:252][950]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.43.03:966][ 28]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.43.07:130][402]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.43.10:931][561]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.43.10:955][561]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Xephorium/Home/Projects/3D Animation/Blender Projects/Theater/Theater Frame 3.obj)
+[2015.08.08-05.43.10:971][561]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.43.24:225][561]LogFbx: Loading FBX Scene from ../../../../../../Users/Xephorium/Home/Projects/3D Animation/Blender Projects/Theater/Theater Frame 3.obj
+[2015.08.08-05.43.24:231][561]LogFbx: FBX Scene Loaded Succesfully
+[2015.08.08-05.43.24:234][561]LogLinker:Warning: Can't find file '/Game/Imported/defaultMat'
+[2015.08.08-05.43.24:234][561]LogLinker:Warning: Can't find file '/Game/Imported/defaultMat'
+[2015.08.08-05.43.24:235][561]LogStaticMesh: Building static mesh Theater_Frame_3...
+[2015.08.08-05.43.24:248][561]LogStaticMesh: Built static mesh [0.013272.2s] /Game/Imported/Theater_Frame_3.Theater_Frame_3
+[2015.08.08-05.43.24:252][561]LogStaticMesh:Warning: Theater_Frame_3 has degenerate tangent bases which will result in incorrect shading. 
+[2015.08.08-05.43.24:259][561]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.08.08-05.43.24:259][561]FBXImport:Warning: Warning Theater_Frame_3 has degenerate tangent bases which will result in incorrect shading.  
+[2015.08.08-05.43.24:263][561]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.43.39:227][238]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.43.39:276][242]LogActorFactory: Actor Factory created Theater_Frame_3
+[2015.08.08-05.43.41:019][410]LogActorFactory: Actor Factory created Theater_Frame_3
+[2015.08.08-05.44.28:161][141]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.44.29:454][267]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.44.29:603][280]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.44.32:901][610]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.44.33:674][686]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.44.34:442][762]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.44.34:485][762]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.44.47:216][713]LogD3D11RHI: InitD3DDevice
+[2015.08.08-05.44.55:265][359]LogD3D11RHI: InitD3DDevice
+[2015.08.08-06.07.14:886][361]LogHttp:Warning: Timeout processing Http request. 00000021C38EB900
+[2015.08.08-06.07.15:856][363]LogD3D11RHI: InitD3DDevice
+[2015.08.08-06.07.25:192][391]LogD3D11RHI: InitD3DDevice
+[2015.08.08-06.07.25:556][391]LogSavePackage: Save=131.542755ms
+[2015.08.08-06.07.25:556][391]LogSavePackage: Moving '../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Saved/FirstPersonExampleMap_Auto28E27C9354B6D897CDEB455885BF390FB.tmp' to '../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2015.08.08-06.07.25:560][391]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.224
+[2015.08.08-06.07.25:560][391]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.224
+[2015.08.08-06.07.25:565][391]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Imported/Theater_Frame_3] ([1] browsable assets)...
+[2015.08.08-06.07.25:603][391]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Imported/Theater_Frame_3.Theater_Frame_3]
+[2015.08.08-06.07.25:603][391]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imported/Theater_Frame_3]
+[2015.08.08-06.07.25:624][391]LogSavePackage: Save=18.303627ms
+[2015.08.08-06.07.25:624][391]LogSavePackage: Moving '../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Saved/Theater_Frame_3_Auto24E406DF146E93C2153773DA1747884D5.tmp' to '../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Saved/Autosaves/Game/Imported/Theater_Frame_3_Auto2.uasset'
+[2015.08.08-06.07.25:626][391]LogFileHelpers: Auto-saving content packages took 0.064
+[2015.08.08-06.12.27:109][418]LogD3D11RHI: InitD3DDevice
+[2015.08.08-06.12.27:618][459]LogD3D11RHI: InitD3DDevice
+[2015.08.08-06.12.27:630][459]LogD3D11RHI: InitD3DDevice
+[2015.08.08-06.12.27:668][460]LogD3D11RHI: InitD3DDevice
+[2015.08.08-06.12.27:771][467]LogD3D11RHI: InitD3DDevice
+[2015.08.08-06.12.28:888][553]LogD3D11RHI: InitD3DDevice
+[2015.08.08-06.12.28:954][553]LogSavePackage: Save=18.768797ms
+[2015.08.08-06.12.28:954][553]LogSavePackage: Moving '../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Saved/Theater_Frame_3CE02DFAE43C9193BFF66E683AE367982.tmp' to '../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/Imported/Theater_Frame_3.uasset'
+[2015.08.08-06.12.32:091][789]LogD3D11RHI: InitD3DDevice
+[2015.08.08-06.12.32:128][789]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.08.08-06.12.32:131][789]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.08.08-06.12.32:133][789]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.08.08-06.12.32:135][789]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.08.08-06.12.32:174][789]LogD3D11RHI: InitD3DDevice
+[2015.08.08-06.12.32:204][789]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/Basics/FeaturePacks.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.08-06.12.32:776][789]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/Mobile/InstallingiTunesTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.08-06.12.32:796][789]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/Mobile/SettingUpAndroidTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.08-06.12.33:101][789]LogRenderer: Reallocating scene render targets to support 1208x632 (Frame:78579).
+[2015.08.08-06.12.33:768][826]LogD3D11RHI: InitD3DDevice
+[2015.08.08-06.12.48:801][925]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.08-06.12.48:801][925]PIE: New page: PIE session: FirstPersonExampleMap (Aug 7, 2015, 8:12:48 PM)
+[2015.08.08-06.12.48:801][925]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.08.08-06.12.48:857][925]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055320s)
+[2015.08.08-06.12.48:861][925]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.08.08-06.12.48:862][925]LogPlayLevel: PIE: World Init took: (0.005503s)
+[2015.08.08-06.12.48:862][925]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.061078s)
+[2015.08.08-06.12.48:889][925]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000021BA9D1B20
+[2015.08.08-06.12.48:889][925]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000021CB539BC0
+[2015.08.08-06.12.49:006][925]LogInit: XAudio2 using 'Sades SA-903 Headset (4- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.08-06.12.49:014][925]LogInit: FAudioDevice initialized.
+[2015.08.08-06.12.49:050][925]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.08.08-06.12.49:056][925]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.08.08-01.12.49
+[2015.08.08-06.12.49:056][925]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.08-06.12.49:056][925]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.08-06.12.49:056][925]LogWorld: Bringing up level for play took: 0.004674
+[2015.08.08-06.12.49:058][925]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.577
+[2015.08.08-06.13.49:942][110]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000021CFF6B420
+[2015.08.08-06.14.27:734][417]LogD3D11RHI: InitD3DDevice
+[2015.08.08-06.14.27:953][417]LogSavePackage: Save=125.237984ms
+[2015.08.08-06.14.27:953][417]LogSavePackage: Moving '../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Saved/FirstPersonExampleMapD29A39B74FB3FDDB5E2E2B8E1CE3B6EA.tmp' to '../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.08.08-06.14.29:658][551]LogD3D11RHI: InitD3DDevice
+[2015.08.08-06.14.30:687][630]LogD3D11RHI: InitD3DDevice
+[2015.08.08-06.14.30:896][630]LogSavePackage: Save=132.834869ms
+[2015.08.08-06.14.30:896][630]LogSavePackage: Moving '../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Saved/FirstPersonExampleMapEC3270394108D9EA4B3E0EA0A6A4E0FF.tmp' to '../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/Testing/frame_test/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.08.08-06.14.32:359][750]LogD3D11RHI: InitD3DDevice
+[2015.08.08-06.14.46:350][751]Cmd: QUIT_EDITOR
+[2015.08.08-06.14.46:596][751]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.08.08-06.14.46:714][751]LogExit: Preparing to exit.
+[2015.08.08-06.14.47:732][751]LogExit: Editor shut down
+[2015.08.08-06.14.47:733][751]LogExit: Transaction tracking system shut down
+[2015.08.08-06.14.47:733][751]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000021B5DB9440
+[2015.08.08-06.14.47:735][751]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000021CC4FBB00
+[2015.08.08-06.14.47:736][751]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000021F22E39C0
+[2015.08.08-06.14.47:737][751]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000021CB78C5E0
+[2015.08.08-06.14.47:917][751]LogExit: Object subsystem successfully closed.
+[2015.08.08-06.14.47:930][751]LogD3D11RHI: Shutdown
+[2015.08.08-06.14.47:930][751]LogD3D11RHI: CleanupD3DDevice
+[2015.08.08-06.14.48:029][751]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.08.08-06.14.48:053][751]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (189)
+[2015.08.08-06.14.48:053][751]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2015.08.08-06.14.48:053][751]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2015.08.08-06.14.48:053][751]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2015.08.08-06.14.48:053][751]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2015.08.08-06.14.48:054][751]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2015.08.08-06.14.48:057][751]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2015.08.08-06.14.48:057][751]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2015.08.08-06.14.48:058][751]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.08.08-06.14.48:058][751]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.08.08-06.14.48:058][751]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.08.08-06.14.48:058][751]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.08.08-06.14.48:058][751]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.08.08-06.14.48:058][751]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.08.08-06.14.48:058][751]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.08.08-06.14.48:058][751]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.08.08-06.14.48:058][751]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.08.08-06.14.48:058][751]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.08.08-06.14.48:058][751]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2015.08.08-06.14.48:058][751]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2015.08.08-06.14.48:058][751]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2015.08.08-06.14.48:059][751]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2015.08.08-06.14.48:059][751]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2015.08.08-06.14.48:059][751]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2015.08.08-06.14.48:059][751]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2015.08.08-06.14.48:059][751]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2015.08.08-06.14.48:059][751]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2015.08.08-06.14.48:674][751]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2015.08.08-06.14.48:674][751]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2015.08.08-06.14.48:674][751]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2015.08.08-06.14.48:674][751]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2015.08.08-06.14.48:674][751]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2015.08.08-06.14.48:674][751]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2015.08.08-06.14.48:674][751]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2015.08.08-06.14.48:674][751]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2015.08.08-06.14.48:674][751]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.08.08-06.14.48:674][751]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.08.08-06.14.48:674][751]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.08.08-06.14.48:674][751]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.08.08-06.14.48:674][751]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.08.08-06.14.48:674][751]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.08.08-06.14.48:674][751]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.08.08-06.14.48:674][751]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2015.08.08-06.14.48:674][751]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2015.08.08-06.14.48:675][751]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2015.08.08-06.14.48:675][751]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2015.08.08-06.14.48:675][751]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2015.08.08-06.14.48:675][751]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2015.08.08-06.14.48:675][751]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2015.08.08-06.14.48:675][751]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2015.08.08-06.14.48:675][751]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2015.08.08-06.14.48:675][751]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2015.08.08-06.14.48:675][751]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2015.08.08-06.14.48:675][751]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2015.08.08-06.14.48:675][751]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2015.08.08-06.14.48:675][751]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2015.08.08-06.14.48:675][751]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2015.08.08-06.14.48:675][751]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2015.08.08-06.14.48:676][751]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2015.08.08-06.14.48:795][751]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2015.08.08-06.14.48:795][751]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2015.08.08-06.14.48:795][751]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2015.08.08-06.14.48:797][751]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2015.08.08-06.14.48:797][751]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2015.08.08-06.14.48:797][751]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2015.08.08-06.14.48:797][751]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2015.08.08-06.14.48:797][751]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2015.08.08-06.14.48:797][751]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2015.08.08-06.14.48:797][751]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2015.08.08-06.14.48:797][751]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2015.08.08-06.14.48:797][751]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2015.08.08-06.14.48:797][751]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2015.08.08-06.14.48:797][751]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2015.08.08-06.14.48:797][751]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2015.08.08-06.14.48:797][751]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2015.08.08-06.14.48:797][751]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2015.08.08-06.14.48:797][751]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2015.08.08-06.14.48:924][751]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2015.08.08-06.14.48:924][751]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.08.08-06.14.48:924][751]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.08.08-06.14.48:924][751]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.08.08-06.14.48:924][751]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.08.08-06.14.48:924][751]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.08.08-06.14.48:924][751]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.08.08-06.14.48:939][751]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.08.08-06.14.48:939][751]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.08.08-06.14.48:939][751]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.08.08-06.14.48:940][751]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.08.08-06.14.48:940][751]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.08.08-06.14.48:940][751]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.08.08-06.14.48:940][751]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.08.08-06.14.48:941][751]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.08.08-06.14.48:941][751]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.08.08-06.14.48:941][751]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.08.08-06.14.48:941][751]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.08.08-06.14.48:941][751]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.08.08-06.14.48:941][751]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.08.08-06.14.48:941][751]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.08.08-06.14.48:941][751]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.08.08-06.14.48:941][751]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.08.08-06.14.48:941][751]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.08.08-06.14.48:941][751]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.08.08-06.14.48:941][751]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.08.08-06.14.48:941][751]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.08.08-06.14.48:945][751]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.08.08-06.14.48:945][751]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.08.08-06.14.48:946][751]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.08.08-06.14.48:947][751]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.08.08-06.14.48:949][751]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.08.08-06.14.48:949][751]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.08.08-06.14.49:049][751]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.08.08-06.14.49:049][751]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.08.08-06.14.49:056][751]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.08.08-06.14.49:056][751]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.08.08-06.14.49:056][751]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.08.08-06.14.49:056][751]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.08.08-06.14.49:056][751]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.08.08-06.14.49:056][751]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.08.08-06.14.49:056][751]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.08.08-06.14.49:056][751]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.08.08-06.14.49:056][751]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.08.08-06.14.49:056][751]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.08.08-06.14.49:056][751]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.08.08-06.14.49:057][751]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.08.08-06.14.49:057][751]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.08.08-06.14.49:057][751]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.08.08-06.14.49:057][751]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.08.08-06.14.49:062][751]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.08.08-06.14.49:062][751]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.08.08-06.14.49:062][751]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.08.08-06.14.49:062][751]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.08.08-06.14.49:062][751]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.08.08-06.14.49:062][751]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.08.08-06.14.49:062][751]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.08.08-06.14.49:062][751]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.08.08-06.14.49:062][751]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.08.08-06.14.49:062][751]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.08.08-06.14.49:156][751]LogDerivedDataCache: Shutdown
+[2015.08.08-06.14.49:156][751]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.08.08-06.14.49:156][751]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.08.08-06.14.49:156][751]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.08.08-06.14.49:156][751]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.08.08-06.14.49:156][751]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.08.08-06.14.49:156][751]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.08.08-06.14.49:156][751]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.08.08-06.14.49:156][751]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.08.08-06.14.49:156][751]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.08.08-06.14.49:156][751]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.08.08-06.14.49:156][751]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.08.08-06.14.49:156][751]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.08.08-06.14.49:156][751]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.08.08-06.14.49:156][751]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.08.08-06.14.49:156][751]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.08.08-06.14.49:156][751]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.08.08-06.14.49:156][751]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.08.08-06.14.49:156][751]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.08.08-06.14.49:156][751]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.08.08-06.14.49:156][751]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.08.08-06.14.49:156][751]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.08.08-06.14.49:156][751]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.08.08-06.14.49:157][751]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.08.08-06.14.49:157][751]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.08.08-06.14.49:157][751]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.08.08-06.14.49:157][751]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.08.08-06.14.49:157][751]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.08.08-06.14.49:157][751]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.08.08-06.14.49:157][751]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.08.08-06.14.49:157][751]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.08.08-06.14.49:157][751]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.08.08-06.14.49:157][751]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.08.08-06.14.49:157][751]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.08.08-06.14.49:157][751]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.08.08-06.14.49:157][751]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.08.08-06.14.49:157][751]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.08.08-06.14.49:158][751]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.08.08-06.14.49:158][751]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.08.08-06.14.49:158][751]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.08.08-06.14.49:158][751]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.08.08-06.14.49:158][751]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.08.08-06.14.49:175][751]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.08.08-06.14.49:175][751]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.08.08-06.14.49:175][751]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.08.08-06.14.49:175][751]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.08.08-06.14.49:175][751]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.08.08-06.14.49:175][751]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.08.08-06.14.49:175][751]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.08.08-06.14.49:175][751]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.08.08-06.14.49:175][751]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.08.08-06.14.49:176][751]LogExit: Exiting.
+[2015.08.08-06.14.49:217][751]Log file closed, 08/08/15 01:14:49
