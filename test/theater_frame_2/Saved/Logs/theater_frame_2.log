@@ -1,0 +1,296 @@
+﻿[2015.08.11-03.18.26:374][  0]Log file open, 08/10/15 22:18:26
+[2015.08.11-03.18.26:374][  0]LogInit:Display: Running engine for game: theater_frame_2
+[2015.08.11-03.18.26:374][  0]LogInit:Display: RandInit(570115587) SRandInit(570115587).
+[2015.08.11-03.18.26:374][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.08.11-03.18.26:374][  0]LogStats: Stats thread started
+[2015.08.11-03.18.26:374][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.11-03.18.26:374][  0]LogInit: API Version: 2579680
+[2015.08.11-03.18.26:374][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.08.11-03.18.26:374][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.08.11-03.18.26:374][  0]LogInit: Build Configuration: Development
+[2015.08.11-03.18.26:374][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.08.11-03.18.26:374][  0]LogInit: Command line: 
+[2015.08.11-03.18.26:374][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.08.11-03.18.26:374][  0]LogInit: Rocket: 1
+[2015.08.11-03.18.26:389][  0]LogInit: Using libcurl 7.41.0
+[2015.08.11-03.18.26:389][  0]LogInit:  - built for x86_64-pc-win32
+[2015.08.11-03.18.26:389][  0]LogInit:  - supports SSL with WinSSL
+[2015.08.11-03.18.26:389][  0]LogInit:  - other features:
+[2015.08.11-03.18.26:389][  0]LogInit:      CURL_VERSION_SSL
+[2015.08.11-03.18.26:389][  0]LogInit:      CURL_VERSION_IPV6
+[2015.08.11-03.18.26:389][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.08.11-03.18.26:389][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.08.11-03.18.26:389][  0]LogInit:      CURL_VERSION_IDN
+[2015.08.11-03.18.26:389][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.08.11-03.18.26:389][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.08.11-03.18.26:389][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.08.11-03.18.26:389][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.08.11-03.18.26:389][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.08.11-03.18.26:404][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.08.11-03.18.26:421][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.08.11-03.18.26:430][  0]LogInit: Object subsystem initialized
+[2015.08.11-03.18.26:434][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.11-03.18.26:434][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.08.11-03.18.26:444][  0]LogInit: Computer: THECITADEL
+[2015.08.11-03.18.26:444][  0]LogInit: User: Xephorium
+[2015.08.11-03.18.26:444][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.08.11-03.18.26:444][  0]LogInit: High frequency timer resolution =3.704019 MHz
+[2015.08.11-03.18.26:444][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.08.11-03.18.26:444][  0]LogMemory: Platform Memory Stats for Windows
+[2015.08.11-03.18.26:444][  0]LogMemory: Process Physical Memory: 47.43 MB used, 47.43 MB peak
+[2015.08.11-03.18.26:444][  0]LogMemory: Process Virtual Memory: 22.23 MB used, 22.23 MB peak
+[2015.08.11-03.18.26:444][  0]LogMemory: Physical Memory: 2051.14 MB used, 8133.44 MB total
+[2015.08.11-03.18.26:444][  0]LogMemory: Virtual Memory: 296.72 MB used, 134217728.00 MB total
+[2015.08.11-03.18.26:482][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.08.11-03.18.26:706][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.08.11-03.18.27:262][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 760 (Feature Level 11_0)
+[2015.08.11-03.18.27:262][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2015.08.11-03.18.27:264][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.08.11-03.18.27:264][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.08.11-03.18.27:264][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.08.11-03.18.27:269][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.11-03.18.27:269][  0]LogD3D11RHI: !Direct3DDevice
+[2015.08.11-03.18.27:269][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.08.11-03.18.27:282][  0]LogD3D11RHI: Async texture creation enabled
+[2015.08.11-03.18.27:300][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.08.11-03.18.28:230][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.08.11-03.18.28:249][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.08.11-03.18.28:267][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.08.11-03.18.28:285][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.08.11-03.18.28:308][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.08.11-03.18.28:326][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.08.11-03.18.28:343][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.08.11-03.18.28:359][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.08.11-03.18.28:381][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.08.11-03.18.28:405][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.08.11-03.18.28:424][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.08.11-03.18.28:444][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.08.11-03.18.28:504][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.08.11-03.18.28:519][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.08.11-03.18.28:534][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.08.11-03.18.28:552][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.08.11-03.18.28:552][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.11-03.18.28:819][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.08.11-03.18.28:913][  0]LogDerivedDataCache: Loaded boot cache 0.09s 53MB C:/Users/Xephorium/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.11-03.18.28:913][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Xephorium/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.08.11-03.18.28:913][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/TheaterVR/test/theater_frame_2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.08.11-03.18.28:913][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.08.11-03.18.28:913][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/TheaterVR/test/theater_frame_2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.08.11-03.18.28:914][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.08.11-03.18.29:058][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.08.11-03.18.29:070][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Xephorium/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.08.11-03.18.29:397][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.11-03.18.29:506][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.11-03.18.29:507][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.11-03.18.29:546][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.08.11-03.18.29:546][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.08.11-03.18.30:027][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.08.11-03.18.31:452][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.08.11-03.18.31:911][  0]SourceControl: Info Source control is disabled
+[2015.08.11-03.18.31:922][  0]SourceControl: Info Source control is disabled
+[2015.08.11-03.18.31:935][  0]SourceControl: Info Source control is disabled
+[2015.08.11-03.18.31:947][  0]SourceControl: Info Source control is disabled
+[2015.08.11-03.18.32:258][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.08.11-03.18.32:258][  0]LogUObjectAllocator: 5409256 out of 0 bytes used by permanent object pool.
+[2015.08.11-03.18.32:344][  0]LogEngine: Initializing Engine...
+[2015.08.11-03.18.32:345][  0]OCULUS: Info: [CAPI] LibOVR module is located at C:\Windows\SYSTEM32\LibOVRRT64_0_6.dll
+
+[2015.08.11-03.18.32:947][  0]OCULUS: Error: ovrHmd_Create failed to complete within the timeout period.
+[2015.08.11-03.18.32:949][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.08.11-03.18.33:158][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.08.11-03.18.33:166][  0]LogInit: XAudio2 using 'Sades SA-903 Headset (4- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.11-03.18.33:185][  0]LogInit: FAudioDevice initialized.
+[2015.08.11-03.18.33:230][  0]LogDerivedDataCache: Saved boot cache 0.05s 53MB C:/Users/Xephorium/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.11-03.18.33:244][  0]LogInit: Texture streaming: Disabled
+[2015.08.11-03.18.33:273][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.08.11-03.18.33:273][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.11-03.18.33:274][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 45a85f91457e24cea9d1398c2b5b7299|87e1918198584c7b85f2dd69d2a628a8|2f249eb6-0266-46ff-affe-44ee199eb976
+[2015.08.11-03.18.33:274][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.08.11-03.18.33:303][  0]LogInit: Transaction tracking system initialized
+[2015.08.11-03.18.33:467][  0]BlueprintLog: New page: Editor Load
+[2015.08.11-03.18.33:507][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
+[2015.08.11-03.18.33:507][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.08.11-03.18.35:363][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.08.11-03.18.35:365][  0]LogConsoleResponse:Display: 
+[2015.08.11-03.18.35:512][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.08.11-03.18.35:810][  0]SourceControl: Info Source control is disabled
+[2015.08.11-03.18.35:811][  0]LightingResults: New page: Lighting Build
+[2015.08.11-03.18.35:829][  0]MapCheck: New page: Map Check
+[2015.08.11-03.18.35:829][  0]LightingResults: New page: Lighting Build
+[2015.08.11-03.18.35:850][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000002E66ACF40
+[2015.08.11-03.18.37:978][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.08.11-03.18.38:009][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.08.11-03.18.39:670][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.08.11-03.18.39:721][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 50.624ms to complete.
+[2015.08.11-03.18.39:721][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 3.911
+[2015.08.11-03.18.39:887][  0]LogCollectionManager: Loaded 0 collections in 0.002384 seconds
+[2015.08.11-03.18.39:898][  0]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 1792 classes and 301 folders.
+[2015.08.11-03.18.39:969][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.08.11-03.18.40:031][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.08.11-03.18.40:061][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2015.08.11-03.18.40:137][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.08.11-03.18.40:145][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.11-03.18.40:150][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.08.11-03.18.40:175][  0]LogLoad: Full Startup: 16.31 seconds (BP compile: 0.58 seconds)
+[2015.08.11-03.18.40:257][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.08.11-03.18.40:310][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.08.11-03.18.40:561][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.08.11-03.18.41:111][  7]LogAssetRegistry: Asset discovery search completed in 7.6148 seconds
+[2015.08.11-03.18.53:656][464]LogD3D11RHI: InitD3DDevice
+[2015.08.11-03.18.58:034][878]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.11-03.18.58:037][878]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.11-03.18.58:038][878]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.11-03.18.58:039][878]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.11-03.18.58:039][878]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.11-03.18.58:040][878]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.11-03.18.58:040][878]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.11-03.18.58:180][878]LogEditorActor: Deleted 7 Actors (0.152 secs)
+[2015.08.11-03.19.30:190][552]LogD3D11RHI: InitD3DDevice
+[2015.08.11-03.19.30:230][552]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Xephorium/Home/Projects/3D Animation/Blender Projects/Theater/Scale Test 5.obj)
+[2015.08.11-03.19.30:274][552]LogD3D11RHI: InitD3DDevice
+[2015.08.11-03.19.32:184][552]LogFbx: Loading FBX Scene from ../../../../../../Users/Xephorium/Home/Projects/3D Animation/Blender Projects/Theater/Scale Test 5.obj
+[2015.08.11-03.19.32:198][552]LogFbx: FBX Scene Loaded Succesfully
+[2015.08.11-03.19.32:203][552]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/defaultMat'
+[2015.08.11-03.19.32:203][552]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/defaultMat'
+[2015.08.11-03.19.32:203][552]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/defaultMat'
+[2015.08.11-03.19.32:203][552]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/FirstPersonBP/defaultMat.defaultMat'
+[2015.08.11-03.19.32:210][552]LogMaterial: Missing cached shader map for material defaultMat, compiling. 
+[2015.08.11-03.19.32:253][552]LogFbx:Warning: Triangulating static mesh default
+[2015.08.11-03.19.33:108][552]LogStaticMesh: Building static mesh Scale_Test_5...
+[2015.08.11-03.19.33:145][552]LogStaticMesh: Built static mesh [0.037438.2s] /Game/FirstPersonBP/Scale_Test_5.Scale_Test_5
+[2015.08.11-03.19.33:155][552]LogStaticMesh:Warning: Scale_Test_5 has degenerate tangent bases which will result in incorrect shading. 
+[2015.08.11-03.19.33:167][552]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.08.11-03.19.33:167][552]FBXImport:Warning: Warning Scale_Test_5 has degenerate tangent bases which will result in incorrect shading.  
+[2015.08.11-03.19.33:180][552]LogD3D11RHI: InitD3DDevice
+[2015.08.11-03.19.38:076][ 37]LogD3D11RHI: InitD3DDevice
+[2015.08.11-03.19.38:147][ 44]LogActorFactory: Actor Factory created Scale_Test_5
+[2015.08.11-03.19.39:731][230]LogActorFactory: Actor Factory created Scale_Test_5
+[2015.08.11-03.21.20:592][912]LogD3D11RHI: InitD3DDevice
+[2015.08.11-03.21.22:143][ 61]LogD3D11RHI: InitD3DDevice
+[2015.08.11-03.21.22:225][ 61]LogD3D11RHI: InitD3DDevice
+[2015.08.11-03.21.28:054][456]LogD3D11RHI: InitD3DDevice
+[2015.08.11-03.21.35:241][991]LogD3D11RHI: InitD3DDevice
+[2015.08.11-03.21.39:463][308]LogD3D11RHI: InitD3DDevice
+[2015.08.11-03.21.39:544][308]LogSavePackage: Save=17.880577ms
+[2015.08.11-03.21.39:544][308]LogSavePackage: Moving '../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/TheaterVR/test/theater_frame_2/Saved/Scale_Test_5A7B55CA24904E751385D50B2F32B05E5.tmp' to '../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/TheaterVR/test/theater_frame_2/Content/FirstPersonBP/Scale_Test_5.uasset'
+[2015.08.11-03.21.44:466][724]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.11-03.21.44:477][724]PIE: New page: PIE session: FirstPersonExampleMap (Aug 10, 2015, 5:21:44 PM)
+[2015.08.11-03.21.44:478][724]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.08.11-03.21.44:515][724]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037504s)
+[2015.08.11-03.21.44:517][724]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.08.11-03.21.44:519][724]LogPlayLevel: PIE: World Init took: (0.003351s)
+[2015.08.11-03.21.44:519][724]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.041239s)
+[2015.08.11-03.21.44:544][724]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000002DBD36A20
+[2015.08.11-03.21.44:591][724]LogInit: XAudio2 using 'Sades SA-903 Headset (4- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.11-03.21.44:599][724]LogInit: FAudioDevice initialized.
+[2015.08.11-03.21.44:830][724]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.08.11-03.21.44:843][724]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.08.10-22.21.44
+[2015.08.11-03.21.44:843][724]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.11-03.21.44:845][724]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.11-03.21.44:846][724]LogWorld: Bringing up level for play took: 0.008627
+[2015.08.11-03.21.44:857][724]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.808
+[2015.08.11-03.22.49:520][365]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000002D7E6C900
+[2015.08.11-03.22.57:659][ 76]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube06)
+[2015.08.11-03.23.09:889][265]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube03)
+[2015.08.11-03.23.19:632][ 95]Cmd: DELETE
+[2015.08.11-03.23.19:632][ 95]Cmd: ACTOR DELETE
+[2015.08.11-03.23.19:637][ 95]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.11-03.23.19:638][ 95]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.11-03.23.19:638][ 95]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.11-03.23.19:638][ 95]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.11-03.23.19:638][ 95]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.11-03.23.19:638][ 95]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.11-03.23.19:638][ 95]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.11-03.23.19:674][ 95]LogEditorActor: Deleted 7 Actors (0.038 secs)
+[2015.08.11-03.23.28:969][146]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube07)
+[2015.08.11-03.24.15:250][500]LogD3D11RHI: InitD3DDevice
+[2015.08.11-03.24.15:507][500]LogSavePackage: Save=113.536407ms
+[2015.08.11-03.24.15:507][500]LogSavePackage: Moving '../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/TheaterVR/test/theater_frame_2/Saved/FirstPersonExampleMapDA3ECF5A4972CA11987A649AC300733B.tmp' to '../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/TheaterVR/test/theater_frame_2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.08.11-03.24.15:550][500]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.288
+[2015.08.11-03.24.15:597][500]LogSavePackage: Save=14.759104ms
+[2015.08.11-03.24.15:597][500]LogSavePackage: Moving '../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/TheaterVR/test/theater_frame_2/Saved/defaultMatCA23A21347BFFD7EA4331B9A3FFFB0DE.tmp' to '../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/TheaterVR/test/theater_frame_2/Content/FirstPersonBP/defaultMat.uasset'
+[2015.08.11-03.27.00:135][379]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.11-03.27.00:135][379]PIE: New page: PIE session: FirstPersonExampleMap (Aug 10, 2015, 5:27:00 PM)
+[2015.08.11-03.27.00:135][379]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.08.11-03.27.00:169][379]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034038s)
+[2015.08.11-03.27.00:171][379]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.08.11-03.27.00:172][379]LogPlayLevel: PIE: World Init took: (0.002445s)
+[2015.08.11-03.27.00:172][379]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.036871s)
+[2015.08.11-03.27.00:358][379]LogInit: XAudio2 using 'Sades SA-903 Headset (4- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.11-03.27.00:366][379]LogInit: FAudioDevice initialized.
+[2015.08.11-03.27.00:413][379]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.08.11-03.27.00:426][379]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.08.10-22.27.00
+[2015.08.11-03.27.00:426][379]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.11-03.27.00:427][379]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.11-03.27.00:428][379]LogWorld: Bringing up level for play took: 0.011742
+[2015.08.11-03.27.00:433][379]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.383
+[2015.08.11-03.27.38:939][937]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000002D7E2A160
+[2015.08.11-03.27.42:006][227]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LargeCube)
+[2015.08.11-03.27.44:003][399]Cmd: DELETE
+[2015.08.11-03.27.44:003][399]Cmd: ACTOR DELETE
+[2015.08.11-03.27.44:004][399]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.11-03.27.44:041][399]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2015.08.11-03.33.23:348][133]LogD3D11RHI: InitD3DDevice
+[2015.08.11-03.33.23:376][133]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Xephorium/Home/Projects/3D Animation/Blender Projects/Theater/The Export.obj)
+[2015.08.11-03.33.23:413][133]LogD3D11RHI: InitD3DDevice
+[2015.08.11-03.33.24:973][133]LogFbx: Loading FBX Scene from ../../../../../../Users/Xephorium/Home/Projects/3D Animation/Blender Projects/Theater/The Export.obj
+[2015.08.11-03.33.24:974][133]LogFbx: FBX Scene Loaded Succesfully
+[2015.08.11-03.33.24:978][133]LogFbx:Warning: Triangulating static mesh default
+[2015.08.11-03.33.25:014][133]LogStaticMesh: Building static mesh The_Export...
+[2015.08.11-03.33.25:016][133]LogStaticMesh: Built static mesh [0.001843.2s] /Game/FirstPersonBP/The_Export.The_Export
+[2015.08.11-03.33.25:016][133]LogStaticMesh:Warning: The_Export has degenerate tangent bases which will result in incorrect shading. 
+[2015.08.11-03.33.25:023][133]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.08.11-03.33.25:023][133]FBXImport:Warning: Warning The_Export has degenerate tangent bases which will result in incorrect shading.  
+[2015.08.11-03.33.25:027][133]LogD3D11RHI: InitD3DDevice
+[2015.08.11-03.33.28:123][422]LogD3D11RHI: InitD3DDevice
+[2015.08.11-03.33.29:444][551]LogD3D11RHI: InitD3DDevice
+[2015.08.11-03.33.35:071][994]LogD3D11RHI: InitD3DDevice
+[2015.08.11-03.33.35:106][994]LogD3D11RHI: InitD3DDevice
+[2015.08.11-03.33.35:121][994]LogD3D11RHI: InitD3DDevice
+[2015.08.11-03.33.35:173][994]LogSavePackage: Save=15.571195ms
+[2015.08.11-03.33.35:173][994]LogSavePackage: Moving '../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/TheaterVR/test/theater_frame_2/Saved/desk9DBAA7C64F534F90CB9D2A831554641E.tmp' to '../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/TheaterVR/test/theater_frame_2/Content/FirstPersonBP/desk.uasset'
+[2015.08.11-03.33.35:184][994]LogD3D11RHI: InitD3DDevice
+[2015.08.11-03.33.36:799][110]LogD3D11RHI: InitD3DDevice
+[2015.08.11-03.33.37:475][166]LogD3D11RHI: InitD3DDevice
+[2015.08.11-03.33.44:210][698]LogD3D11RHI: InitD3DDevice
+[2015.08.11-03.33.44:239][698]LogD3D11RHI: InitD3DDevice
+[2015.08.11-03.33.44:255][698]LogD3D11RHI: InitD3DDevice
+[2015.08.11-03.33.44:307][698]LogSavePackage: Save=15.971030ms
+[2015.08.11-03.33.44:307][698]LogSavePackage: Moving '../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/TheaterVR/test/theater_frame_2/Saved/theaterEB8174DF48A6DFC1D27B689D97134CDB.tmp' to '../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/TheaterVR/test/theater_frame_2/Content/FirstPersonBP/theater.uasset'
+[2015.08.11-03.33.44:329][698]LogSavePackage: Save=4.143067ms
+[2015.08.11-03.33.44:329][698]LogSavePackage: Moving '../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/TheaterVR/test/theater_frame_2/Saved/Scale_Test_5B0647A214F92B01EDBA62D8DB653F5E1.tmp' to '../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/TheaterVR/test/theater_frame_2/Content/FirstPersonBP/Scale_Test_5.uasset'
+[2015.08.11-03.33.46:417][848]LogD3D11RHI: InitD3DDevice
+[2015.08.11-03.33.46:458][851]LogActorFactory: Actor Factory created desk
+[2015.08.11-03.33.50:857][271]LogActorFactory: Actor Factory created desk
+[2015.08.11-03.33.51:467][339]LogActorFactory: Actor Factory created desk
+[2015.08.11-03.33.52:418][426]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (desk)
+[2015.08.11-03.33.52:433][426]LogD3D11RHI: InitD3DDevice
+[2015.08.11-03.34.02:724][342]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Scale_Test_5)
+[2015.08.11-03.34.02:752][342]LogD3D11RHI: InitD3DDevice
+[2015.08.11-03.34.07:866][794]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (desk)
+[2015.08.11-03.34.15:565][504]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (desk)
+[2015.08.11-03.34.47:905][588]LogD3D11RHI: InitD3DDevice
+[2015.08.11-03.34.48:132][588]LogSavePackage: Save=107.429527ms
+[2015.08.11-03.34.48:132][588]LogSavePackage: Moving '../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/TheaterVR/test/theater_frame_2/Saved/FirstPersonExampleMap3B0F96A942C7F89DB97FA89542C83D1A.tmp' to '../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/TheaterVR/test/theater_frame_2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.08.11-03.34.48:177][588]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.261
+[2015.08.11-03.34.48:188][588]LogSavePackage: Save=3.698955ms
+[2015.08.11-03.34.48:188][588]LogSavePackage: Moving '../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/TheaterVR/test/theater_frame_2/Saved/The_ExportDF49162D45DE9B2955DE509D69C0F6AF.tmp' to '../../../../../../Users/Xephorium/Home/Projects/Game Dev/TheaterVR/TheaterVR/test/theater_frame_2/Content/FirstPersonBP/The_Export.uasset'
+[2015.08.11-03.34.50:846][848]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.11-03.34.50:846][848]PIE: New page: PIE session: FirstPersonExampleMap (Aug 10, 2015, 5:34:50 PM)
+[2015.08.11-03.34.50:846][848]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.08.11-03.34.50:891][848]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045023s)
+[2015.08.11-03.34.50:893][848]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.08.11-03.34.50:895][848]LogPlayLevel: PIE: World Init took: (0.003099s)
+[2015.08.11-03.34.50:895][848]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.048535s)
+[2015.08.11-03.34.50:949][848]LogInit: XAudio2 using 'Sades SA-903 Headset (4- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.11-03.34.50:956][848]LogInit: FAudioDevice initialized.
+[2015.08.11-03.34.50:996][848]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.08.11-03.34.51:005][848]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.08.10-22.34.51
+[2015.08.11-03.34.51:005][848]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.11-03.34.51:006][848]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.11-03.34.51:007][848]LogWorld: Bringing up level for play took: 0.008827
+[2015.08.11-03.34.51:011][848]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.962
+[2015.08.11-03.35.44:997][227]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000002DB640900
+[2015.08.11-03.
